@@ -2,6 +2,11 @@ body {
 
     font-family:'Times New Roman', Times, serif
   }
+  .logo   {
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+  }
   .judul    {
     text-align: center;
   }
