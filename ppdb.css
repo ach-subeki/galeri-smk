@@ -87,6 +87,7 @@
   
   p {
     font-size: 16px;
+    margin: 1px;
   }
   
   a.learn-more {
@@ -109,91 +110,15 @@
   }
   
   .konten {
-    width: 530px;
-    height: 700px;
+    margin: 0 auto;
+    width: 700px;
+    height: 400px;
     border-radius: 8px;
     padding-top: 0px;
-  
-  }
-  
-  .isi-konten {
-    background-color: #e3e3e3;
-    height: 310px;
-    border-radius: 8px;
-    padding-top: 5px;
-  }
-  
-  .img-konten {
-    width: 520px;
-    border-radius: 5px;
-  }
-  
-  .flex-konten {
     display: flex;
     justify-content: center;
     margin-top: 0px;
-  }
   
-  .text-konten {
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    font-style: italic;
-    font-size: 15px;
-  }
-  
-  .footer-konten {
-    background-color: #e3e3e3;
-    margin-top: 10px;
-    border-radius: 8px;
-    height: 60px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .foto-bunder {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-  }
-  
-  .biodata- {
-    border: 0px solid;
-    width: 200px;
-  }
-  
-  .owner {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    font-weight: 550;
-    font-family: sans-serif;
-  }
-  
-  .pekerjaan {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    font-size: smaller;
-    font-style: italic;
-  }
-  
-  .border- {
-    border: 0px solid;
-    width: 40px;
-  }
-  
-  .benefit-a {
-    margin-top: 80px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 50px;
-    text-align: justify;
-    font-weight: 600;
-    font-size: small;
-  }
-  
-  .your {
-    font-size: small;
   }
   
   .table- {
@@ -273,7 +198,7 @@
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    width: 270px;
+    width: 300px;
     margin-top: 10px;
   }
   
@@ -350,11 +275,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Menentukan tinggi container sesuai tinggi layar (viewport) */
+  }
+  .video {
+    width: 200px;
+    padding: 10px;
   }
   
-  .video {
-    max-width: 100%; /* Maksimum lebar video */
-    max-height: 100%; /* Maksimum tinggi video */
-  }
+
   
